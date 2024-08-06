@@ -40,6 +40,6 @@ jobs:
           name: dist-files
       - name: Output artifacts
         run: |
-          ls -la dist
+          ls -Flah
       - name: Deploy
         run: echo "Deploying..."
